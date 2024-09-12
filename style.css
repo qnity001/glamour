@@ -2,6 +2,7 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    background: #FFF6E9;
 }
 
 .info-header {
@@ -124,7 +125,6 @@ ul {
     justify-content: center;
     align-items: center;
     height: 530px;
-    background: #FFF6E9;
 }
 
 .section-2 {
