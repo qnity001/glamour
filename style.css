@@ -85,6 +85,7 @@ ul {
     height:100%;
     width: 100%;
     object-fit: cover;
+
 }
 
 .text {
@@ -155,12 +156,23 @@ ul {
 }
 
 .box {
+    display: flex;
+    justify-content: center;
+    align-content: center;
     width: 150px;
     height: 150px;
     border-style:solid;
-    border-color: #FB5B5A;
+    border-color: #604CC3;
     border-width: 5px;
     border-radius: 20px;
+    align-self: center;
+    flex-shrink: 0;
+}
+
+.box img {
+    width: 60%;
+    height: 60%;
+    object-fit: cover;
     align-self: center;
 }
 
@@ -171,7 +183,7 @@ ul {
 }
 
 .section-3 {
-    background: #C4E4FF;
+    background: #E7C6FF;
 }
 
 .quotation {
